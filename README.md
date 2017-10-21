@@ -1,2 +1,3 @@
 # gun-server
-GunDB Server
+*Simply start a [gun](https://github.com/amark/gun) server*
+

@@ -1,0 +1,25 @@
+{
+  "name": "gun-server",
+  "version": "0.8.7",
+  "description": "Simple gun server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodejs src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/qxip/gun-server"
+  },
+  "keywords": [
+    "gun",
+    "gunDB",
+    "server",
+    "setup",
+    "realtime"
+  ],
+  "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gun": "^0.8.7"
+  }
+}
