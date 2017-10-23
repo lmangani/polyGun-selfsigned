@@ -1,25 +1,30 @@
 {
-  "name": "gun-server",
-  "version": "0.8.7",
-  "description": "Simple gun server",
-  "main": "index.js",
+  "name": "polygun-server",
+  "version": "0.8.8",
+  "description": "Simple http/s Gun server",
+  "main": "polygun.js",
   "scripts": {
-    "start": "nodejs index.js"
+    "start": "nodejs polygun.js",
+    "http": "nodejs http.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/qxip/gun-server"
+    "url": "github.com/qxip/polygun-server"
   },
   "keywords": [
     "gun",
     "gunDB",
     "server",
     "setup",
-    "realtime"
+    "realtime",
+    "http",
+    "https",
+    "polyglot"
   ],
   "author": "Lorenzo Mangani <lorenzo.mangani@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gun": "^0.8.7"
+    "gun": "^0.8.8",
+    "polyglot": "^0.1.2"
   }
 }
